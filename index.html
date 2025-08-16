@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS PLP Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Introduction to CSS</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>About This Page</h2>
+            <p>This page is styled using only CSS to demonstrate the Box Model. 
+            Notice the use of margins, borders, and padding on different elements.
+            </p>
+            <button class="btn">Learn More</button>
+        </section>
+
+        <section class="box-model-demo">
+            <div class="margin-box">
+                Margin
+                <div class="border-box">
+                    Border
+                    <div class="padding-box">
+                        Padding
+                        <div class="content-box">
+                            Content
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Content Area</h3>
+                <p>This is where your actual content lives. Dimensions are controlled by width and height properties.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Padding</h3>
+                <p>Creates space inside the element, between the content and border. Affects background color.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Border</h3>
+                <p>Surrounds the padding and content. Can be styled with different colors, widths, and styles.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Margin</h3>
+                <p>Creates transparent space outside the border, separating the element from its neighbors.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Innocent Omollo's CSS Assignment</p>
+    </footer>
+</body>
+</html>
